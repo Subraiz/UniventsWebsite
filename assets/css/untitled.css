@@ -1,0 +1,26 @@
+#text-input {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border: none;
+  border-radius: 50px;
+}
+
+#submit-button {
+  border-color: #F65F38;
+}
+
+#appComingSoon {
+  background-color: #F65F38;
+  padding: 25px;
+  border-radius: 41px;
+  box-shadow: 2px 2px 2px red;
+}
+
+#iconHeader {
+  border: none;
+}
+
+#featureText {
+  border: none;
+}
+
