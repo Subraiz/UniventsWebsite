@@ -68,7 +68,6 @@
   margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
 @media (max-width: 992px) {
   #featuresContainer {
     max-width: 684px;
@@ -263,15 +262,9 @@
   }
 }
 
-@media (max-width: 414px) {
-  #featuresDesktop {
-    display: none;
-  }
-}
-
-@media (min-width: 576px) {
+@media (min-width: 600px) {
   #mobileFeatures {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -385,13 +378,19 @@
   }
 }
 
-html, body {
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
+@media (max-width: 414px) {
+  #featuresDesktop {
+    display: none;
+  }
 }
 
-=======
->>>>>>> parent of 126512a... Mobile Responsivness
+@media (max-width: 414px) {
+  body, html {
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*margin: 0px;*/
+    /*padding: 0px;*/
+    overflow-x: hidden;
+  }
+}
+
