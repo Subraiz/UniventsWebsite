@@ -74,17 +74,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #lastParagraphMobile {
     margin-left: 12px;
-    font-weight: 800;
-  }
-}
-
-@media (max-width: 422px) {
-  #emailColumn {
-    display: flex;
-    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    font-size: 19px;
+    max-width: 358px;
+    padding-bottom: 87px;
+    text-shadow: -1px -1px 12px grey;
   }
 }
 

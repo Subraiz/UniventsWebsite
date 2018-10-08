@@ -102,12 +102,13 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #paragraphInfo {
     max-width: 43px;
     min-width: 302px;
     font-size: 12px;
     text-align: center;
+    padding-left: 21px;
   }
 }
 
@@ -116,9 +117,10 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 414px) {
   #headingText {
     letter-spacing: 2px;
+    padding-left: 18px;
   }
 }
 
@@ -127,6 +129,7 @@
     height: 618px;
     min-height: 51px;
     max-height: 760px;
+    width: 100%;
   }
 }
 
@@ -157,20 +160,20 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #UniventsHeading {
   }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 1200px) {
   #quote {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #scrollDownIcon {
     margin: 2px;
-    margin-top: 81px;
+    margin-top: 16px;
     font-size: 33px;
   }
 }
@@ -189,6 +192,7 @@
   font-style: normal;
   padding-bottom: 86px;
   padding-right: 8px;
+  font-size: 24px;
 }
 
 @media (max-width: 375px) {
@@ -202,21 +206,11 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #emailColumn {
     margin-top: 0px;
     padding-right: 24px;
     padding-left: 21px;
-  }
-}
-
-@media (max-width: 375px) {
-  #submit-button {
-  }
-}
-
-@media (max-width: 375px) {
-  #mainHeader {
   }
 }
 
@@ -236,7 +230,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #useCases {
     display: none;
   }
@@ -264,7 +258,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #featuresDesktop {
     display: none;
   }
@@ -273,6 +267,106 @@
 @media (min-width: 576px) {
   #mobileFeatures {
     display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  #scrollDownIcon {
+    margin-top: -25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #mainHeader {
+  }
+}
+
+@media (max-width: 414px) {
+  #quote {
+    line-height: 32px;
+    font-weight: bold;
+    width: 397px;
+    height: 456px;
+    display: none;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+  }
+}
+
+@media (max-width: 414px) {
+  #text-input {
+    max-width: 205px;
+  }
+}
+
+@media (max-width: 414px) {
+  #submit-button {
+  }
+}
+
+@media (max-width: 414px) {
+  #mainNav {
+    width: 414px;
+    max-width: 414px;
+    min-width: 414px;
+  }
+}
+
+@media (max-width: 414px) {
+  #mainHeader {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 414px) {
+  #logoDiv {
+    height: 109px;
+    width: 445px;
+  }
+}
+
+@media (min-width: 435px) {
+  #logoDiv {
+    display: none;
+  }
+}
+
+@media (max-width: 414px) {
+  #mobileQuote {
+    width: auto;
+    text-shadow: 2px 2px 2px grey;
+  }
+}
+
+@media (min-width: 420px) {
+  #mobileQuote {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  #text-input {
+    width: 184px;
+    max-width: 182px;
+  }
+}
+
+@media (max-width: 375px) {
+  #submit-button {
+  }
+}
+
+@media (max-width: 375px) {
+  #scrollDownIcon {
+    margin-top: 74px;
+  }
+}
+
+@media (max-width: 375px) {
+  #mainNav {
+    max-width: 375px;
+    min-width: 375px;
+    width: 375px;
   }
 }
 
