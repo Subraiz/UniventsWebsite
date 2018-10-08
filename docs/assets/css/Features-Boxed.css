@@ -68,3 +68,211 @@
   margin-bottom: 20px;
 }
 
+@media (max-width: 992px) {
+  #featuresContainer {
+    max-width: 684px;
+  }
+}
+
+@media (max-width: 576px) {
+  #featuresContainer {
+    max-width: 497px;
+  }
+}
+
+@media (max-width: 300px) {
+  #featuresContainer {
+  }
+}
+
+@media (max-width: 768px) {
+  #univentsLogo {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #paragraphInfo {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  #paragraphInfo {
+  }
+}
+
+@media (max-width: 375px) {
+  #paragraphInfo {
+    max-width: 43px;
+    min-width: 302px;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 300px) {
+  #pInfoColumn {
+  }
+}
+
+@media (max-width: 360px) {
+  #headingText {
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 992px) {
+  #download {
+    height: 618px;
+    min-height: 51px;
+    max-height: 760px;
+  }
+}
+
+@media (max-width: 360px) {
+  #whatIsUnivents {
+    letter-spacing: 4px;
+  }
+}
+
+@media (max-width: 360px) {
+  #featuresContainer {
+  }
+}
+
+@media (max-width: 992px) {
+  #appComingSoon {
+  }
+}
+
+@media (max-width: 992px) {
+  #scrollDownIcon {
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 576px) {
+  #scrollDownIcon {
+  }
+}
+
+@media (max-width: 375px) {
+  #UniventsHeading {
+  }
+}
+
+@media (max-width: 375px) {
+  #quote {
+  }
+}
+
+@media (max-width: 375px) {
+  #scrollDownIcon {
+    margin: 2px;
+    margin-top: 81px;
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 375px) {
+  #teamUnivents {
+    margin-left: 14px;
+    padding-bottom: 31px;
+  }
+}
+
+#lastParagraphMobile {
+  color: rgb(255,255,255);
+  font-weight: 800;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  padding-bottom: 86px;
+  padding-right: 8px;
+}
+
+@media (max-width: 375px) {
+  #scrollColumn {
+    margin-top: -16px;
+  }
+}
+
+@media (max-width: 375px) {
+  .row {
+  }
+}
+
+@media (max-width: 375px) {
+  #emailColumn {
+    margin-top: 0px;
+    padding-right: 24px;
+    padding-left: 21px;
+  }
+}
+
+@media (max-width: 375px) {
+  #submit-button {
+  }
+}
+
+@media (max-width: 375px) {
+  #mainHeader {
+  }
+}
+
+@media (max-width: 375px) {
+  #contact {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 992px) {
+  #UseCasesSection {
+  }
+}
+
+@media (max-width: 375px) {
+  #useCasesOuterDiv {
+  }
+}
+
+@media (max-width: 375px) {
+  #useCases {
+    display: none;
+  }
+}
+
+#useCaseContainer {
+}
+
+#caseDescription {
+  padding-bottom: 8px;
+  border-bottom: .5px solid grey;
+}
+
+@media (min-width: 576px) {
+  #useCaseMobile {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  #featuresContainer {
+    width: 379px;
+    height: 597px;
+    max-width: 318px;
+  }
+}
+
+@media (max-width: 375px) {
+  #featuresDesktop {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  #mobileFeatures {
+    display: none;
+  }
+}
+

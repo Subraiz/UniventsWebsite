@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 988px) {
+@media (max-width: 998px) {
   .device-mockup > .device {
     visibility: hidden;
   }
@@ -74,8 +74,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
   #lastParagraphMobile {
+    margin-left: 12px;
+    font-weight: 800;
   }
 }
 
