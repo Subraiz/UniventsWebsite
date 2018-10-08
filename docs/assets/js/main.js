@@ -11,8 +11,11 @@ var config = {
 firebase.initializeApp(config);
 var database = firebase.database();
 
-var emails = database.ref().child('emails');
-console.log(emails);
+var emailList = database.ref().child('emails');
+
+
+
+
 
 
 
@@ -21,8 +24,11 @@ $("#submit-button").click(() => {
     let email = $("#text-input").val()
     let suffix = email.substr(email.length - 3)
     if(suffix.toUpperCase() == "EDU"){
-       emails.set([email])
-        console.log("Email sent to database");
+       firebase.database().ref('/emails/').once('value').then(function(snapshot) {
+        var currentDatabase = snapshot.val()
+        currentDatabase.push(email);
+        emailList.set(currentDatabase);
+    })
     }
     $("#text-input").val("");
 })
