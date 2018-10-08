@@ -24,4 +24,5 @@ $("#submit-button").click(() => {
        emails.set([email])
         console.log("Email sent to database");
     }
+    $("#text-input").val("");
 })
