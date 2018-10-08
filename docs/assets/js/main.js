@@ -19,5 +19,5 @@ $("#submit-button").click(() => {
         emailList.set(currentDatabase);
     })
     }
-    $("#text-input").val("");
+    $("#text-input").val("Thanks for subscribing!");
 })
