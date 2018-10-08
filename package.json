@@ -1,0 +1,26 @@
+{
+  "name": "univentswebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "firebase": "^5.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Subraiz/UniventsWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Subraiz/UniventsWebsite/issues"
+  },
+  "homepage": "https://github.com/Subraiz/UniventsWebsite#readme"
+}
