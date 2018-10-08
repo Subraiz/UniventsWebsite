@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 998px) {
+@media (max-width: 988px) {
   .device-mockup > .device {
     visibility: hidden;
   }
@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+<<<<<<< HEAD
 @media (max-width: 414px) {
   #lastParagraphMobile {
     margin-left: 12px;
@@ -84,6 +85,17 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 97px;
     text-shadow: -1px -1px 12px grey;
     margin-bottom: 7px;
+=======
+@media (max-width: 360px) {
+  #lastParagraphMobile {
+  }
+}
+
+@media (max-width: 422px) {
+  #emailColumn {
+    display: flex;
+    justify-content: center;
+>>>>>>> parent of 126512a... Mobile Responsivness
   }
 }
 
