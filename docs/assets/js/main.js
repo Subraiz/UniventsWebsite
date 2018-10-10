@@ -21,3 +21,11 @@ $("#submit-button").click(() => {
     }
     $("#text-input").val("Thanks for subscribing!");
 })
+
+$("#scrollDownIcon").click((e) => {
+    console.log("Scroll down u slut")
+    e.preventDefault();
+    $('html, body')
+            .animate({
+                scrollTop: $("#download").offset().top-20}, 'slow', 'swing', function() {});
+})

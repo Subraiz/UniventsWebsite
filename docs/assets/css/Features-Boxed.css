@@ -398,3 +398,7 @@
   z-index: 5;
 }
 
+#scrollDownButton {
+  border: none;
+}
+
